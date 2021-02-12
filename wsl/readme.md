@@ -8,16 +8,19 @@
 
 `wt.exe`/Windows Terminal cannot run commands in an existing Terminal Window. [[1]](#References). Below is a workaround for it. 
 
-To start multiple tabs with Ubuntu's terminal and with different destinations: Create a batch file, say `wsl.bat`, with following command & run it in Command Prompt.  
+To start multiple tabs with Ubuntu's terminal and with different destinations:
+1. Create a batch file, say `wsl.bat`, with following command 
+2. run it in Command Prompt.  
 
-*This will open tabs in Windows Terminal and closes the current Command Prompt Window. **Note:** Modify the command for respective needs.*  
+*This will open tabs in Windows Terminal and closes the current Command Prompt Window.  
+**Note:** Modify the command for respective needs.*  
 
 `start wt nt -p "Ubuntu-20.04" -d "\\wsl$\Ubuntu-20.04\home\<user>\folder1" ; nt -p "Ubuntu-20.04" -d "\\wsl$\Ubuntu-20.04\home\<user>\folder2";`  
 
 ---
 
 Tab Navigation shortcuts are same as that of Mac's-Terminal's/Chrome's Tab but instead of `CMD` key hit `Ctrl+Shift`  
-i.e. `^⇧w` for closing the terminal window.
+*i.e.* `^⇧w` *for closing the terminal window.*
 
 ---
 
