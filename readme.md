@@ -3,8 +3,8 @@
 This document contains a collection of shortcuts, code snippets etc.
 
 [Java](/java)  
-[Shell](/shell)
-[SSH](/ssh)
+[Shell](/shell)  
+[SSH](/ssh)  
 
 ## Legend
 
