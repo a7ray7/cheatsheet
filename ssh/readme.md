@@ -5,10 +5,10 @@
 e.g. GITLAB and GITHUB
 
 `ssh-keygen -t ed25519 -C "gitHUBuser@account.com"` creates SSH key set for GITHUB,  
-while doing this save it as `id_ed25519_gh` or similar.
+while doing this, save it as `id_ed25519_gh` or similar.
 
 `ssh-keygen -t ed25519 -C "gitLABuser@account.com"` creates SSH key set for GITLAB  
-while doing this save it as `id_ed25519_gl` or similar.
+while doing this, save it as `id_ed25519_gl` or similar.
 
 `ssh-add ~/.ssh/id_ed25519_gh` adds the key to SSH Authentication Agent.  
 `ssh-add ~/.ssh/id_ed25519_gl` same as above.  
