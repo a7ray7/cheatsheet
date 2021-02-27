@@ -22,6 +22,9 @@ Give no. of line as integer
 Extracts anything after the match. Here the match is "^.*Tmp, "  
 `sed -n -e 's/^.*Tmp, //p'`
 
+Removes anything after the colon in all lines in a file. This is how the match happens using ":.*"  
+`sed -n -e 's/:.*//p'`
+
 Print 5th line of the file file.txt  
 `sed '5q;d' file.txt`  
 
