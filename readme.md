@@ -7,6 +7,7 @@ This document contains a collection of shortcuts, code snippets etc.
 [Shell](/shell)  
 [SSH](/ssh)  
 [WSL](/wsl)  
+[Yoga](/yoga)  
 
 ## Legend
 
