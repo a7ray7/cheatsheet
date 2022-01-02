@@ -2,7 +2,7 @@
 
 This document contains a collection of shortcuts, code snippets etc.
 
-[Git](/git)
+[Git](/git)  
 [Java](/java)  
 [Shell](/shell)  
 [SSH](/ssh)  
