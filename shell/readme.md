@@ -31,3 +31,14 @@
 `precmd() { print "" }`  To add a new line after a commandline execution is finished(in `zsh`)  
 
 ---
+
+## Enable vi mode in bash
+
+Add `set - o vi` in .bashrc
+
+## Enable vi mode in zsh
+
+Add `bindkey -v` in .zshrc
+
+**Note**: for omyzsh just add `vi-mode` in plugins
+
