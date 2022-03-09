@@ -16,7 +16,7 @@ while doing this, save it as `id_ed25519_gl` or similar.
 `ssh-add -l` checks the keys.  
 `ssh-add -D` deletes the keys. **Note❗️** Don't do this during setup.  
 
-Edit the SSH Config file(`touch ~/.ssh/config`), so that we can configure which key should be used for which domain, like below:  
+Edit the SSH Config file(or `touch ~/.ssh/config`), so that we can configure which key should be used for which domain, like below:  
 
 ```bash
 # Gitlab
