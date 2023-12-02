@@ -4,12 +4,23 @@
 
 ## Windows Terminal ⏹
 
+```Shell
+# Upgrades UBUNTU Release version
+sudo do-release-upgrade 
+
+# Prints UBUNTU Version
+lsb_release -a
+```
+
+### ARCHIVE
+
 ---
 
-`wt.exe`/Windows Terminal cannot run commands in an existing Terminal Window. [[1]](#References). Below is a workaround for it. 
+`wt.exe`/Windows Terminal cannot run commands in an existing Terminal Window. [[1]](#References). Below is a workaround for it.
 
 To start multiple tabs with Ubuntu's terminal and with different destinations:
-1. Create a batch file, say `wsl.bat`, with following command 
+
+1. Create a batch file, say `wsl.bat`, with following command
 2. run it in Command Prompt.  
 
 *This will open tabs in Windows Terminal and closes the current Command Prompt Window.  
