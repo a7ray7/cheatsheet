@@ -1,6 +1,37 @@
 # Java
 
+## Keytool
+
+List all the certificates in Java KeyStore
+
+```bash
+keytool -v -list -keystore /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home/lib/security/cacerts | grep 'Alias Name:'
+```
+
 ## Multiple Java Versions 🍎
+
+### Switch Java Versions
+
+Switch Version
+
+```bash
+/usr/libexec/java_home -V
+
+# Matching Java Virtual Machines (3):
+#    17.0.8.1 (x86_64) "Azul Systems, Inc." - "Zulu 17.44.53" /Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+#    11.0.20.1 (x86_64) "Azul Systems, Inc." - "Zulu 11.66.19" /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+#    1.8.0_372 (x86_64) "Azul Systems, Inc." - "Zulu 8.70.0.23" /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
+#/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+```
+
+then select the version from above commands result list
+
+```bash
+export JAVA_HOME=`/usr/libexec/java_home -v 11` &&
+java -version
+```
+
+### jenv
 
 To manage multiple versions `jenv` is used
 
