@@ -8,9 +8,20 @@ List all the certificates in Java KeyStore
 keytool -v -list -keystore /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home/lib/security/cacerts | grep 'Alias Name:'
 ```
 
-## Multiple Java Versions 🍎
+## Multiple Java Versions
 
-### Switch Java Versions
+### Switch Java Versions Ubuntu :penguin:
+
+```bash
+sudo apt install default-jre # v.11 - 202403
+sudo apt install default-jdk
+sudo apt install openjdk-17-jre-headless 
+sudo apt install openjdk-17-jdk-headless 
+sudo update-alternatives --config javac
+sudo update-alternatives --config java
+```
+
+### Switch Java Versions 🍎
 
 Switch Version
 
