@@ -46,7 +46,7 @@ Add `bindkey -v` in .zshrc
 ---
 
 ```bash
-# Allows ececution of file that changed on the disk
+# Allows ececution of file that changed on the disk (🍎 Only)
 xattr -d com.apple.quarantine <filename>
 ```
 
