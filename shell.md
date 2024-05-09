@@ -43,5 +43,12 @@ Add `set - o vi` in .bashrc
 
 Add `bindkey -v` in .zshrc
 
+---
+
+```bash
+# Allows ececution of file that changed on the disk
+xattr -d com.apple.quarantine <filename>
+```
+
 **Note**: for omyzsh just add `vi-mode` in plugins
 
